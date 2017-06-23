@@ -377,43 +377,43 @@ def set_derived_units_and_constants():
     B, kB, mB, gB, tB, pB, eB, zB, yB, \
     KiB, MiB, GiB, TiB, PiB, EiB, ZiB, YiB
     # kilobit
-    kb = kbit = 1e-3 * b
-    mb = mbit = 1e-6 * b
-    gb = gbit = 1e-9 * b
-    tb = tbit = 1e-12 * b
-    eb = ebit = 1e-15 * b
-    pb = pbit = 1e-18 * b
-    zb = zbit = 1e-21 * b
-    yb = ybit = 1e-24 * b
+    kb = kbit = 1e3 * b
+    mb = mbit = 1e6 * b
+    gb = gbit = 1e9 * b
+    tb = tbit = 1e12 * b
+    eb = ebit = 1e15 * b
+    pb = pbit = 1e18 * b
+    zb = zbit = 1e21 * b
+    yb = ybit = 1e24 * b
     # kibibit
-    Kib = Kibit = pow(2,10) * b
-    Mib = Mibit = pow(2,20) * b 
-    Gib = Gibit = pow(2,30) * b 
-    Tib = Mibit = pow(2,40) * b 
-    Pib = Pibit = pow(2,50) * b 
-    Eib = Eibit = pow(2,60) * b 
-    Zib = Zibit = pow(2,70) * b 
-    Yib = Yibit = pow(2,80) * b 
+    Kib = Kibit = 2**10 * b
+    Mib = Mibit = 2**20 * b 
+    Gib = Gibit = 2**30 * b 
+    Tib = Mibit = 2**40 * b 
+    Pib = Pibit = 2**50 * b 
+    Eib = Eibit = 2**60 * b 
+    Zib = Zibit = 2**70 * b 
+    Yib = Yibit = 2**80 * b 
     # Byte
     B = 8 * b
     # kiloByte = kB
-    kB = 1e-3 * B
-    mB = 1e-6 * B
-    gB = 1e-9 * B
-    tB = 1e-12 * B
-    pB = 1e-15 * B
-    eB = 1e-18 * B
-    zB = 1e-21 * B
-    yB = 1e-24 * B
+    kB = 1e3 * B
+    MB = 1e6 * B
+    GB = 1e9 * B
+    TB = 1e12 * B
+    PB = 1e15 * B
+    EB = 1e18 * B
+    ZB = 1e21 * B
+    YB = 1e24 * B
     # kibiByte = KiB
-    KiB = pow(2,10) * B 
-    MiB = pow(2,20) * B 
-    GiB = pow(2,30) * B 
-    TiB = pow(2,40) * B 
-    PiB = pow(2,50) * B 
-    EiB = pow(2,60) * B 
-    ZiB = pow(2,70) * B 
-    YiB = pow(2,80) * B 
+    KiB = 2**10 * B 
+    MiB = 2**20 * B 
+    GiB = 2**30 * B 
+    TiB = 2**40 * B 
+    PiB = 2**50 * B 
+    EiB = 2**60 * B 
+    ZiB = 2**70 * B 
+    YiB = 2**80 * B 
 
     #Constants--general
     global c0, mu0, eps0, Z0, hPlanck, hbar, kBoltzmann, GNewton, sigmaSB, alphaFS
